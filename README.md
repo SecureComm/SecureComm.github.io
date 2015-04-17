@@ -1,13 +1,11 @@
-# Jekyll Now
+# SecureComm Site
 
 **Jekyll** is a static site generator that's perfect for GitHub hosted blogs ([Jekyll Repository](https://github.com/jekyll/jekyll))
-
-[Built using Jekyll Now](https://github.com/barryclark/jekyll-now/)
-
 
 ## Credits
 
 - [Jekyll](https://github.com/jekyll/jekyll) - Thanks to its creators, contributors and maintainers.
+- [Jekyll Now](https://github.com/barryclark/jekyll-now/) - Thanks to all involved in this great boilerplate.
 - [SVG icons](https://github.com/neilorangepeel/Free-Social-Icons) - Thanks, Neil Orange Peel. They're beautiful.
 - [Solarized Light Pygments](https://gist.github.com/edwardhotchkiss/2005058) - Thanks, Edward.
 - [Joel Glovier](http://joelglovier.com/writing/) - Great Jekyll articles. I used Joel's feed.xml in this repository.
