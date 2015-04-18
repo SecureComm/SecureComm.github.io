@@ -34,6 +34,13 @@ module.exports = function(grunt) {
         }
       }
     },
+    copy: {
+      main: {
+        files: [
+          {expand: true, src: ['_scripts/app/partials/**'], dest: 'public/scripts/app/partials/'}
+        ]
+      }
+    },
     jekyll: {                             // Task
       options: {                          // Universal options
         bundleExec: true,
@@ -57,7 +64,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-jekyll');
 
-  grunt.registerTask('default', ['jshint', 'jekyll']);
+  grunt.registerTask('default', ['jshint', 'jekyll', 'concat', 'copy:main']);
 };
