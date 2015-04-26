@@ -83,3 +83,4 @@ exclude:
     - package.json
     - CNAME
     - bower.json
+    - node_modules
