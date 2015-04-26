@@ -1,0 +1,23 @@
+{
+  "Major":0,
+  "Minor":2,
+  "Patch":0,
+  "PreReleaseTag":"unstable.0",
+  "PreReleaseTagWithDash":"-unstable.0",
+  "BuildMetaData":2,
+  "FullBuildMetaData":"2.Branch.feature/Angular.Sha.a9b3053774f64fd92e05213809618227d7503912",
+  "MajorMinorPatch":"0.2.0",
+  "SemVer":"0.2.0-unstable.0",
+  "LegacySemVer":"0.2.0-unstable0",
+  "LegacySemVerPadded":"0.2.0-unstable0000",
+  "AssemblySemVer":"0.2.0.0",
+  "FullSemVer":"0.2.0-unstable.0+2",
+  "InformationalVersion":"0.2.0-unstable.0+2.Branch.feature/Angular.Sha.a9b3053774f64fd92e05213809618227d7503912",
+  "ClassicVersion":"0.2.0.2",
+  "ClassicVersionWithTag":"0.2.0.2-unstable.0",
+  "BranchName":"feature/Angular",
+  "Sha":"a9b3053774f64fd92e05213809618227d7503912",
+  "AssemblyVersion":"0.2.0.0",
+  "AssemblyFileVersion":"0.2.0.0",
+  "OriginalRelease":"a9b3053774f64fd92e05213809618227d7503912.2015-04-18 14:10:32Z"
+}
