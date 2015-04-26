@@ -71,6 +71,11 @@ module.exports = function(grunt) {
         }
       }
     },
+    exec: {
+      bump_version: {
+        cmd: function(){ return "GitVersion > .\\build.version";}
+      }
+    },
     jekyll: {                             // Task
       options: {                          // Universal options
         bundleExec: true,
@@ -99,8 +104,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-wiredep');
   grunt.loadNpmTasks('grunt-bower-concat');
+  grunt.loadNpmTasks('grunt-exec');
   grunt.loadNpmTasks('grunt-jekyll');
 
-  grunt.registerTask('default', ['jshint', 'jekyll', 'autoprefixer', 'concat', 'bower_concat', 'copy:main']);
-  grunt.registerTask('dev', ['jshint', 'autoprefixer', 'wiredep']);
+  grunt.registerTask('default', ['jshint', 'jekyll', 'autoprefixer', 'concat', 'bower_concat', 'copy:main', 'exec:bump_version']);
+  grunt.registerTask('dev', ['jshint', 'autoprefixer', 'wiredep', 'exec:bump_version']);
+  grunt.registerTask('test-task', []);
 };
